@@ -1,9 +1,6 @@
-
-
-```js
-
 ## Usage
 
+```js
 const { Array1 } = require('jl-array1'); // from Node
 const { Array1 } = require('./jl-array1.js'); // from file
 
