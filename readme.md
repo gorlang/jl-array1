@@ -2,6 +2,7 @@
 
 ```js
 const { Array1 } = require('jl-array1'); // from Node
+
 const { Array1 } = require('./jl-array1.js'); // from file
 
 const array1 = new Array1(4, 5); // Create an 4x5 array filled with zeros
@@ -21,14 +22,8 @@ npm install ../dir/to/jl-array1
 
 ## Features
 
-Array1 is a minimal implementation of an 2DArray where
-indexing starts with 1 instead of 0.
-Indexes (row, column)in a 3x3 matrix is as follows:
-|
-  [1,1 1,2 1,3]
-  [2,1 2,2 2,3]
-  [3,1 3,2 3,3]
-}
+Array1 is a minimal implementation of an numerical 2DArray where
+row/column indexing starts with 1 instead of 0.
 
 ## Tests
 
